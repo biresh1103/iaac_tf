@@ -1,6 +1,6 @@
 # Create EC2 Instance
 resource "aws_instance" "vm-server" {
-  ami                    = data.aws_ami.rhel_8_5.id
+  ami                    = data.aws_ami.amazon-linux-2.id
   instance_type          = var.vm_instance_type
   subnet_id              = aws_subnet.public-subnet.id
   vpc_security_group_ids = [aws_security_group.aws-vm-sg.id]
