@@ -1,4 +1,4 @@
-variable "aws-access-key"{
+variable "aws-access-key" {
  type = string
  description = "AWS access Key"
 }
@@ -8,7 +8,7 @@ variable "aws-secret-key" {
  description = "AWS secret key"
 }
 
-variable "aws-region"{
+variable "aws-region" {
  type = string
  description = "AWS region"
 }
